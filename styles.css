@@ -2,8 +2,34 @@ body {
     background-color: #efdbde;
 }
 
-.description {
-    color: green;
-    font-family: 'Courier New', Courier, monospace;
+#mainHeading, h1 {
     text-align: center;
+    background-color: white;
+    margin: 10px;
+}
+
+.main {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.recipes {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#des {
+    margin:15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.images {
+    display: block;
+    width : 350px;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid black;
 }
